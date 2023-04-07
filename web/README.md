@@ -10,11 +10,11 @@ Antes de começar, certifique-se de que você tem o Node.js instalado em seu sis
 
 Clone o repositório ou baixe o código fonte em um arquivo zip.
 
-```git clone https://github.com/JacoMartins/pet-computacao.git```
+```git clone https://github.com/CauanDZN/moovooca.git```
 
 Navegue até o diretório do projeto.
 
-```cd pet-computacao```
+```cd moovooca```
 
 ```cd web```
 

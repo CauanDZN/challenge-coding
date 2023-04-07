@@ -107,8 +107,6 @@ Antes de executar a aplicação, é necessário ter instalado na máquina:
   GET /linhas
 ```
 
-
-
 ## Stack utilizada
 
 **Front-end:** JavaScript, TypeScript, Next.js
@@ -121,12 +119,12 @@ Antes de executar a aplicação, é necessário ter instalado na máquina:
 
 - Clone o repositório do GitHub:
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/CauanDZN/moovooca.git
 ```
 
 - Acesse o diretório do projeto:
 ```bash
-cd nome-do-repositorio
+cd moovooca
 ```
 
 - Instale as dependências do front-end:
