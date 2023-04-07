@@ -1,0 +1,6 @@
+# python flask
+.flaskenv
+.venv
+__pycache__
+./models/__pycache__
+./resources/__pycache__

@@ -1,0 +1,38 @@
+# python flask
+./server/.flaskenv
+./server/.venv
+
+# dependencies
+./web/node_modules
+./web/.pnp
+./web/.pnp.js
+
+# testing
+./web/coverage
+
+# next.js
+./web/.next/
+./web/out/
+
+# production
+./web/build
+
+# misc
+./web/.DS_Store
+./web/*.pem
+
+# debug
+./web/npm-debug.log*
+./web/yarn-debug.log*
+./web/yarn-error.log*
+./web/.pnpm-debug.log*
+
+# local env files
+./web/.env*.local
+
+# vercel
+./web/.vercel
+
+# typescript
+./web/*.tsbuildinfo
+./web/next-env.d.ts
