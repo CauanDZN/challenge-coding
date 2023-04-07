@@ -48,7 +48,7 @@ class LinhaList(MethodView):
       input_text = 'input: Considere as seguintes informações: '
 
       for linha in linhas:
-        sentidos = SentidoModel.query.filter(SentidoModel.id == linha.id).all()
+        sentidos = SentidoModel.query.filter(SentidoModel.id_linha == linha.id).all()
         input_text += f'Encontrada a linha de ônibus com nome "{linha.cod} {linha.nome}", que contém uma parada próxima ao campus {linha.campus}, contendo {len(sentidos)} sentidos, sendo esses: '
 
         for sentido in sentidos:
