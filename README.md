@@ -92,6 +92,12 @@ trabalho.
 ○ Reuso de código, inclusive com a utilização de bibliotecas desenvolvidas
 especificamente para o trabalho.
 
+## Requisitos
+
+Antes de executar a aplicação, é necessário ter instalado na máquina:
+
+- Node.js (versão 12 ou superior)
+- Python (versão 3.6 ou superior)
 
 ## Documentação da API
 
