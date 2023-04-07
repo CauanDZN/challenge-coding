@@ -1,5 +1,5 @@
 
-# Trabalho Coding
+# Desafio:
 
 Em PETlândia, devido à pandemia do COVID-19, se faz necessário o
 distanciamento mínimo entre os habitantes. Nos campi da UFC para que as atividades
@@ -91,4 +91,67 @@ trabalho.
 
 ○ Reuso de código, inclusive com a utilização de bibliotecas desenvolvidas
 especificamente para o trabalho.
+
+
+## Documentação da API
+
+#### Retorna todos os itens
+
+```http
+  GET /linhas
+```
+
+
+
+## Stack utilizada
+
+**Front-end:** JavaScript, TypeScript, Next.js
+
+**Back-end:** Python, Flask
+
+
+## Instalação
+
+
+- Clone o repositório do GitHub:
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
+
+- Acesse o diretório do projeto:
+```bash
+cd nome-do-repositorio
+```
+
+- Instale as dependências do front-end:
+```bash
+cd web
+npm install
+```
+
+- Mude o arquivo '/src/services/api.ts' para receber o IP da sua máquina na porta 5000.
+
+- Mude o arquivo '.env' para receber o IP da sua máquina na porta 5000.
+
+- Instale as dependências do back-end:
+```bash
+cd server
+python3 -m pip install -r requirements.txt
+```
+
+- Execute primeiro o back-end:
+```bash
+cd server
+python3 app.py
+```
+
+- Depois o front-end:
+```bash
+cd web
+npm run dev
+```
+## Autores
+
+- [@CauanDZN](https://www.github.com/CauanDZN)
+- [@PdYuri](https://github.com/PdYuri)
 
